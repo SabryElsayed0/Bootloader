@@ -13,8 +13,9 @@ int main (void)
 	APP_vBootloaderStart();
 	while(1)
 	{
-
+	   asm("NOP");
 	}
+	return 0 ;
 }
 
 
